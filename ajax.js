@@ -8,7 +8,7 @@ function buscaCep() {
 		if (xhr.readyState == 4) {
 			if (xhr.status = 200)
 				preencheCampos(xhr.responseText);
-				console.log(JSON.parse(xhr.responseText));
+				
 		}
 	}
 	xhr.send();
